@@ -1,35 +1,76 @@
-#Portalium {{package}}
+<p align="center">
+    <a href="https://github.com/portalium" target="_blank">
+        <img src="./portalium_logo.png" height="100px">
+    </a>
+    <h1 align="center">Portalium _____</h1>
+    <br>
+</p>
 
-Portalium {{package}} is a package structure used to create Portalium custom packages and extensions. This file explains the necessary steps to create a new package using Portalium {{package}}.
+[![Latest Stable Version](https://poser.pugx.org/portalium/_____/v/stable.png)](https://packagist.org/packages/portalium/_____)
+[![Total Downloads](https://poser.pugx.org/portalium/_____/downloads.png)](https://packagist.org/packages/portalium/_____)
+[![Build status](https://github.com/portalium/_____/workflows/build/badge.svg)](https://github.com/portalium/_____/actions?query=workflow%3Abuild)
+
+The package ...
+
+## Requirements
+
+- PHP 8.1 or higher.
 
 ## Installation
 
-Firstly, clone the Portalium {{package}} package using the git clone command.
-Replace the {{vendor}} and {{package}} words with your desired location. The {{vendor}} word should be replaced with your target location, such as portalium or diginova. The {{package}} word should be replaced with the name of the package you want to create.
-You can install the Portalium {{package}} package using Composer. To install Composer, please visit this address.
-You can use the following command to install the package:
-```
-composer require {{vendor}}/portalium-{{package}}
+The package could be installed with composer:
+
+```shell
+composer require portalium/_____
 ```
 
-## Usage
+## General usage
+
+### Widgets:
+
+- [Example Widget](docs/widgets/widget.md)
+- [_____](docs/widgets/_____.md)
+- [_____](docs/widgets/_____.md)
+
+### Components
+
+- [Example Component](docs/components/component.md)
+- [_____](docs/components/_____.md)
+- [_____](docs/components/_____.md)
+
+## Testing
+
+### Unit testing
+
+The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
+
+```shell
+./vendor/bin/phpunit
+```
+
+### Dependencies
+
+Use [ComposerRequireChecker](https://github.com/maglnet/ComposerRequireChecker) to detect transitive 
+[Composer](https://getcomposer.org/) dependencies.
+
+## Package development
 
 Once you have created your package, you can create the components, controllers, models, database migrations, and views within the package.
 
 Here are some links with more information about components, controllers, models, database migrations, and views:
 
-Components: https://www.yiiframework.com/doc/guide/2.0/en/concept-components
+- [Creating a component](https://www.yiiframework.com/doc/guide/2.0/en/concept-components)
+- [Creating a controller](https://www.yiiframework.com/doc/guide/2.0/en/structure-controllers)
+- [Creating a model](https://www.yiiframework.com/doc/guide/2.0/en/structure-models)
+- [Creating a database migration](https://www.yiiframework.com/doc/guide/2.0/en/db-migrations)
+- [Creating a view](https://www.yiiframework.com/doc/guide/2.0/en/structure-views)
 
-Controllers: https://www.yiiframework.com/doc/guide/2.0/en/structure-controllers
+## License
 
-Models: https://www.yiiframework.com/doc/guide/2.0/en/structure-models
+The Portalium _____ is free software. It is released under the terms of the BSD License.
+Please see [`LICENSE`](./LICENSE.md) for more information.
 
-Migrations: https://www.yiiframework.com/doc/guide/2.0/en/db-migrations
+Maintained by [Portalium Software](https://www.yiiframework.com/).
 
-Views: https://www.yiiframework.com/doc/guide/2.0/en/structure-views
-
-Contact
-
-If you have any questions or suggestions about the package, please create an issue on our Github page: https://github.com/{{vendor}}/portalium-{{package}}
-
-
+## Follow updates
+[![Linkedin](https://img.shields.io/badge/linkedin-join-1DA1F2?style=flat&logo=linkedin)](https://www.linkedin.com/company/diginova-informatics/)
